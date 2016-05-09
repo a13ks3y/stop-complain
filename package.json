@@ -1,0 +1,26 @@
+{
+  "name": "stop-complain",
+  "version": "1.0.0",
+  "description": "Offline first web app that allows to send abuse to other person, that he/she have complained about something.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tbd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a13ks3y/stop-complain.git"
+  },
+  "keywords": [
+    "stop-complain",
+    "stopComplain"
+  ],
+  "author": "a13ks3y.ass@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a13ks3y/stop-complain/issues"
+  },
+  "homepage": "https://github.com/a13ks3y/stop-complain#readme",
+  "devDependencies": {
+    "webpack": "^1.13.0"
+  }
+}
