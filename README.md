@@ -1,6 +1,7 @@
 # stop-complain
 Offline first web app that allows to send abuse to other person, that he/she have complained about something.
 
+* Story 0: As developer I expect to be able use browser-sync and protractor e2e, and jasmine for unit-testing, running by webpack.
 * Story 1: As user I expect to be able login with Google credentials.
 * Story 2: As user I want to be able see the list of my friends from Google+
 * Story 3: As user I want to be able to abuse any user if it's not denied.
