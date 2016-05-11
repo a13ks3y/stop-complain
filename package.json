@@ -4,7 +4,10 @@
   "description": "Offline first web app that allows to send abuse to other person, that he/she have complained about something.",
   "main": "index.js",
   "scripts": {
-    "test": "tbd"
+    "test": "tbd",
+    "start": "npm run serve | npm run dev",
+    "serve": "./node_modules/.bin/http-server -p 8080",
+    "dev": "webpack-dev-server --progress --colors --port 8090"
   },
   "repository": {
     "type": "git",
@@ -21,6 +24,13 @@
   },
   "homepage": "https://github.com/a13ks3y/stop-complain#readme",
   "devDependencies": {
-    "webpack": "^1.13.0"
+    "http-server": "^0.9.0",
+    "jsx-loader": "^0.13.2",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2"
   }
 }
