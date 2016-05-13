@@ -1,4 +1,8 @@
 var ReactDOM = require('react-dom');
+var Auth = require('./components/auth.jsx');
 ReactDOM.render(
-    <h1>Stop complain</h1>
+    <div className="main">
+        <h1>Stop complain</h1>
+        <Auth/>
+    </div>
 , document.getElementById('content'));
