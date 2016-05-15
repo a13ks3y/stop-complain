@@ -11,3 +11,19 @@ Offline first web app that allows to send abuse to other person, that he/she hav
     + White/Black List
     + No one
 * Story 5: As user I want to be able view abuses on me and abuses that I have made, with filtering and sort
+
+
+# Rough database structure:
+
+* users
+    + uid - string (firebase id)
+    + info - object with fields like name, email etc.
+    + friends - array of uid
+    + complains - array of complains on this user
+        * description - string
+        * uid - id of user that made abuse
+    + userComplains - array of complains ids that user have made
+    + rules - object with rules, who can make abuse
+
+# todo items
+ * Change unit test, so they run with webpack, and watch should not be stopped by errors
